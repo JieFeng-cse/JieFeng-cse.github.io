@@ -175,7 +175,8 @@
 
 <div id="article-content">
 	<hr>
-<h1 id="Graph-Convolution-Neural-Networks"><a href="#Graph-Convolution-Neural-Networks" class="headerlink" title="Graph Convolution Neural Networks"></a>Graph Convolution Neural Networks</h1><p>This part will introduce some very import GCN models, those convolution techniques are fundamental block for GNNs and I will try my best to conclude the basic ideas behind those methods.</p>
+<h1 id="Graph-Convolution-Neural-Networks"><a href="#Graph-Convolution-Neural-Networks" class="headerlink" title="Graph Convolution Neural Networks"></a>Graph Convolution Neural Networks</h1><p>This part will introduce some very import GCN models, those convolution techniques are fundamental block for GNNs and I will try my best to conclude the basic ideas behind those methods. </p>
+<p>Before those approaches proposed, there are some node embedding methods employ random walk statistics and matrix factorization-based learning objectives, which have close relationships to classic approaches to spectral clustering, multi-dimensional scaling and so on. Those methods will not be discussed there.</p>
 <h2 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h2><ul>
 <li>GCN    <a href="https://arxiv.org/pdf/1609.02907.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1609.02907.pdf</a> by kipf</li>
 <li>GraphSAGE  <a href="https://arxiv.org/pdf/1706.02216.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1706.02216.pdf</a></li>
@@ -190,16 +191,35 @@
 H^{l+1} = \sigma(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}).</script><p>Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph G with added self-connections ($I_N$ is the identity matrix), $D_{ii} = \sum_j \tilde{A}_{ij}$ (degree matrix) and $H^{(l)}$ is the matrix of activations in the lth layer, $H^{(0)} = X$. The $\sigma(.)$ denotes an activation function such as the Relu() or others.</p>
 <p>The intuition of this function is to aggregate the information of adjoin neighbors. A * H could be regarded as a node’s representation is the sum of the features of all its neighbor nodes.</p>
 <p>The $\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}$ can be regarded as the Laplacian matrix, which includes the degree matrix to count in the influence of the node which is being embedded and normalize $A$ as well (be definition, the sum of $A$ in a row always equals to the node’s degree, so $AD^{-1}$ could normalize A). For in-depth discussion please refer to the original paper.</p>
-<h2 id="GraphSAGE"><a href="#GraphSAGE" class="headerlink" title="GraphSAGE"></a>GraphSAGE</h2><p>GraphSAGE, abbreviate for sample and aggregate, is proposed for inductive node embedding, this method learn both node’s topological features and the distribution of node features in the neighborhood simultaneously. </p>
+<h2 id="GraphSAGE"><a href="#GraphSAGE" class="headerlink" title="GraphSAGE"></a>GraphSAGE</h2><p>GraphSAGE, abbreviate for graph sample and aggregate, is proposed for inductive node embedding, this method learn both node’s topological features and the distribution of node features in the neighborhood simultaneously. </p>
+<p>Why important?</p>
+<p>The trained model can generate embeddings for unseen nodes without training again, which enables the model to be implemented in situations where the graphs may evolve. As a result, this work is the basement of PinSage, the first gcn based algorithm which is employed in the industry.</p>
+<p>The idea is the work before is transductive learning methods, which means the objective of learning is generate embedding of current node directly, however, what sage is trying to do is to do inductive learning as they can learn from special cases to embed general nodes, in a word, to be predictive.</p>
 <p>They train a set of aggregator functions that learns to aggregate feature information from a node’s local neighborhood like:</p>
 <div align=center>
     <img src="/images/sage.png"/>
 </div>
 
+<p>Key: Our approach is that we learn how to aggregate feature information from a node’s local neighborhood</p>
+<h3 id="Embedding-generation"><a href="#Embedding-generation" class="headerlink" title="Embedding generation"></a>Embedding generation</h3><p>(use trained model)</p>
+<div align=center>
+    <img src="/images/embed.png"/>
+</div>
 
-
-
-
+<p>The intuition behind this is at each search depth, nodes aggregate information from their local neighbors.</p>
+<p>The aggregation of the neighbor representations can be done by a variety of aggregator architectures.</p>
+<p>In practice, they sample a fixed-size set of neighbors to keep the computational footprint of each batch fixed.</p>
+<h3 id="Train-the-model-unsupervised"><a href="#Train-the-model-unsupervised" class="headerlink" title="Train the model (unsupervised)"></a>Train the model (unsupervised)</h3><p>technique: SGD</p>
+<p>loss function:</p>
+<script type="math/tex; mode=display">
+J_G(z_u)=-log(\sigma(z_u^Tz_v))-QE_{v_n\sim P_{n(v)}}log(\sigma(-z_u^Tz_{v_n}))</script><p>v is a node near u on fixed-length random walk, $\sigma()$ is sigmoid function, $P_n$ is a negative sampling distribution, Q is the number of negative samples.</p>
+<p>Remarkably, the $z_u$ here is generated from the features contained within a node’s neighborhood rather than training a unique embedding for each node.</p>
+<p>(B.T.W, the above sentence is just copied from the original paper, I am not so clear about the meaning….)</p>
+<p>This Loss function encourages the nearby nodes to have similar embeddings while the representation of disparate nodes are highly distinct.</p>
+<h3 id="Aggregator-Architectures"><a href="#Aggregator-Architectures" class="headerlink" title="Aggregator Architectures"></a>Aggregator Architectures</h3><p>Mean aggregator;</p>
+<p>LSTM aggregator;</p>
+<p>Pooling aggregator;</p>
+<h3 id="Summation"><a href="#Summation" class="headerlink" title="Summation"></a>Summation</h3><p>This could be seen as a simplification of GCN, as GCN take global information into account, while GraphSAGE only use part local information to generate embedding, which means flexibility and robustness.</p>
 
 </div>
 
