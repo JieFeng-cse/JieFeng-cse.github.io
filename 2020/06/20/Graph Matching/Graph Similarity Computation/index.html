@@ -9,7 +9,7 @@
 	
 	<title>
 	
-		About | 
+		Graph Matching/Graph Similarity Computation | 
 	 
 	Jie Feng&#39;s Blog
 	</title>
@@ -102,7 +102,7 @@
 									</a>
 									
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2020/06/20/Graph%20Matching/Graph%20Similarity%20Computation/">
 										Graph Similarity Computation
 									</a>
@@ -142,26 +142,60 @@
 	<div id="content">
 		<h1 id="article-title">
 
-	About
+	Graph Similarity Computation
 </h1>
 <div class="article-meta">
 	
 	<span>Jie Feng</span>
-	<span>2020-05-28 20:11:28</span>
+	<span>2020-06-20 13:48:06</span>
+    
+		<div id="article-categories">
+            
+		</div>
     
 </div>
 
 <div id="article-content">
-	<p>I am Jie Feng, a junior student form Zhejiang University. During the last four months, I served as a intern researcher in Tucodec, Shanghai, which is a prestigious IT company focusing on video compression. </p>
-<p>As video format information is getting more and more pervasive, video compression techniques are unprecedently needed in many fields including security, traffic, game industry, TV industry and internet video platforms. The reason is quite obvious that a faster and more powerful compression technique can significantly decrease the cost of information transmission and storage.</p>
-<p>During the last several years, many efficient image compression techniques are proposed including jpeg and bpg. To date, more and more researchers utilize learning algorithms to gain better performance on this task. Some generative models including GAN, CAE and some super resolution models showed promising results. A CVPR workshop called CLIC ( short for challenge on learned image compression) is focusing on this subject and the annual challenge results show a stable progress in both compression speed and quality.  </p>
-<p>Back to the topic, as a information format existing for more than 50 years, many compression techniques including H.264/H.265/H.266 and mpeg have proven their efficiency which can achieve impressive PSNR and MSSIM. Nevertheless, every coin has two sides, the time cost for those orthodox algorithms are often astonishing because of  . Compared with traditional methods, autoencoder based models accelerate the encoding and decoding process with a comparable or even better performance on PSNR and MS-SSIM. </p>
-<p>However, to my best knowledge, there is still not a comprehensive tutorial about video compression.  Based on my experience in Tucodec and the fundamental papers I read, I want to try my best to write a document to help people whoever interested in this direction to have a basic understanding of how learned  video compression algorithms works.</p>
-<p>Besides, this web will also serve as a base for my other projects.</p>
-<p>My email is <a href="mailto:zjucse_fj@zju.edu.cn">zjucse_fj@zju.edu.cn</a>, if you have anything to share, shoot me! </p>
+	<h1 id="Graph-Similarity-Computation"><a href="#Graph-Similarity-Computation" class="headerlink" title="Graph Similarity Computation"></a>Graph Similarity Computation</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>With strong representative abilities, graphs have a broad range of applications in various fields, including social network study, computational chemistry and biomedical image analysis. Recently, especially with the development of deep learning techniques, there aroused surging interests on graph-related problems. </p>
+<p>As for my project experience, my research subject lies on graph similarity prediction problem, which is one of the fundamental challenges of many real world applications such as biological molecular similarity search and social group network similarity identification.</p>
+<p>To depict similarity between two graph, one of the pervasive metrics is GED (short for graph edit distance). Orthodox methods  like A* could calculate exact GED values but require exponential time complexity. Some approximate methods includes VJ,  BEAM, HUNGRIAN can generate estimated value of GED, however, those methods still have polynomial or even sub-exponential time complexity.</p>
+<p>What we are trying to do is to deploy graph neural networks (GNNs) as a data-driven solution for this task. To date, a bunch of graph convolution techniques have been proposed such as graph convolution network (GCN), edge convolution network, graph isomorphism network (GIN), graph attention network (GAN) which are proven to be powerful tools to embed node features.  Also, to utilize pooling techniques in graph, researchers have developed several down sampling methods including diffpool, topkpooling, sagpool and mempool. </p>
+<p>Back to the graph similarity computation task, basically, this problem can be divided to two parts: (1) How to embed the graph? (2) With the feature vectors in hand, how to measure the similarity?</p>
+<p>Existing deep learning methods for graph domain including SimGNN, Gsim_CNN, GMN, HGMN have done a wonderful job in this field. Those methods can be roughly divided into two categories: (1) directly map the graph into features, such as GCN-MEAN, GCN-MAX (2) embed a pair of graphs at  a time to get cross-graph information, this methodology is featured by GMN, other methods including Gsim_cnn, SimGNN don’t exert pair embedding, but they still have some cross-graph mechanism to facilitate matching.</p>
+<p>The first category of models can be called as embedding models, the second one is named as matching models. Obviously, the disadvantage of matching models is the relatively high time complexity, which is the cost of a better accuracy. Further more, those matching techniques are not so efficient when employed to large graphs. So how can we make a trade-off between this two categories?</p>
+<p>We have two solutions:</p>
+<ol>
+<li>Coarsen the graph to a smaller one</li>
+<li>Partition the graph to smaller ones</li>
+</ol>
+<p>Simple and direct, so the problem become how to design a proper coarsening method and how to partition the graph to let the subgraph attain the information of the source graph as much as possible?</p>
+<p>Those problems will be discussed later.</p>
+<h2 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h2><p>This is the outline for following context:</p>
+<ul>
+<li>GCN methods</li>
+<li>Pooling methods</li>
+<li>Partition methods</li>
+<li>Graph matching frameworks</li>
+<li>Our frame work</li>
+<li>Applications</li>
+</ul>
 
 </div>
 
+
+    <div class="post-guide">
+        <div class="item left">
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2020/05/28/Tutorial/Before/">
+                Before
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
 
 
 
