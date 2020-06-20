@@ -200,7 +200,8 @@ H^{l+1} = \sigma(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)
     <img src="/images/sage.png"/>
 </div>
 
-<p>Key: Our approach is that we learn how to aggregate feature information from a node’s local neighborhood</p>
+<p>As the illustration, GraphSAGE samples a fixed number of neighbors by random walk and aggregates level by level to accumulate local information, then transfers aggregated information  from outside into the embedded model.</p>
+<p>Key: Their approach is that the model learns how to aggregate feature information from a node’s local neighborhood</p>
 <h3 id="Embedding-generation"><a href="#Embedding-generation" class="headerlink" title="Embedding generation"></a>Embedding generation</h3><p>(use trained model)</p>
 <div align=center>
     <img src="/images/embed.png"/>
@@ -220,6 +221,7 @@ J_G(z_u)=-log(\sigma(z_u^Tz_v))-QE_{v_n\sim P_{n(v)}}log(\sigma(-z_u^Tz_{v_n}))<
 <p>LSTM aggregator;</p>
 <p>Pooling aggregator;</p>
 <h3 id="Summation"><a href="#Summation" class="headerlink" title="Summation"></a>Summation</h3><p>This could be seen as a simplification of GCN, as GCN take global information into account, while GraphSAGE only use part local information to generate embedding, which means flexibility and robustness.</p>
+<h2 id="GAT-graph-attention-network"><a href="#GAT-graph-attention-network" class="headerlink" title="GAT (graph attention network)"></a>GAT (graph attention network)</h2><p>To be different from GAN (generative adversarial network), they name this framework as GAT.</p>
 
 </div>
 
