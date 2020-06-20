@@ -194,7 +194,7 @@ H^{l+1} = \sigma(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)
 <h2 id="GraphSAGE"><a href="#GraphSAGE" class="headerlink" title="GraphSAGE"></a>GraphSAGE</h2><p>GraphSAGE, abbreviate for graph sample and aggregate, is proposed for inductive node embedding, this method learn both node’s topological features and the distribution of node features in the neighborhood simultaneously. </p>
 <p>Why important?</p>
 <p>The trained model can generate embeddings for unseen nodes without training again, which enables the model to be implemented in situations where the graphs may evolve. As a result, this work is the basement of PinSage, the first gcn based algorithm which is employed in the industry.</p>
-<p>The idea is the work before is transductive learning methods, which means the objective of learning is generate embedding of current node directly, however, what sage is trying to do is to do inductive learning as they can learn from special cases to embed general nodes, in a word, to be predictive.</p>
+<p>The idea is the work before is transductive learning methods, which means the objective of learning is generate embedding of current node directly with the whole graph in hand.  Therefore, if the graph changed, the model have to be trained again. However, what GraphSAGE is trying to do is to do inductive learning as they can learn from special cases to embed general nodes, in a word, to be predictive.</p>
 <p>They train a set of aggregator functions that learns to aggregate feature information from a node’s local neighborhood like:</p>
 <div align=center>
     <img src="/images/sage.png"/>
