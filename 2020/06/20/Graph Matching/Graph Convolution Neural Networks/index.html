@@ -168,12 +168,20 @@
 	<h1 id="Graph-Convolution-Neural-Networks"><a href="#Graph-Convolution-Neural-Networks" class="headerlink" title="Graph Convolution Neural Networks"></a>Graph Convolution Neural Networks</h1><p>This part will introduce some very import GCN models, those convolution techniques are fundamental block for GNNs and I will try my best to conclude the basic ideas behind those methods.</p>
 <h2 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h2><ul>
 <li>GCN    <a href="https://arxiv.org/pdf/1609.02907.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1609.02907.pdf</a> by kipf</li>
-<li>GraphSAGE  <a href="https://arxiv.org/pdf/1706.02216.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1706.02216.pdf</a> by Hamilton</li>
-<li>GAN <a href="https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf" target="_blank" rel="noopener">https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf</a></li>
+<li>GraphSAGE  <a href="https://arxiv.org/pdf/1706.02216.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1706.02216.pdf</a></li>
+<li>GAT <a href="https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf" target="_blank" rel="noopener">https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf</a></li>
 <li>rGCN  <a href="https://arxiv.org/abs/1703.06103" target="_blank" rel="noopener">https://arxiv.org/abs/1703.06103</a> by kipf</li>
 <li>GIN <a href="https://arxiv.org/pdf/1810.00826.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1810.00826.pdf</a></li>
 </ul>
-<h2 id="GCN"><a href="#GCN" class="headerlink" title="GCN"></a>GCN</h2>
+<h2 id="GCN"><a href="#GCN" class="headerlink" title="GCN"></a>GCN</h2><p>This is one of the most prestigious work in graph neural network, serves as the most important block in many GNN frameworks.</p>
+<p>To begin with, GCN is a simple layer-wise propagation rule for neural network models which operate directly on graphs. The neural network model f(X,A) is proposed to encode the graph, where X denote the feature matrix and A is the adjacency matrix (binary or weighted). If the nodes are not labeled, empirically you can use an identity matrix as X at the beginning. </p>
+<p>The propagation rule can be described as:<br>$$<br>H^{l+1} = \sigma(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}).<br>$$<br>Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph G with added self-connections ($I_N$ is the identity matrix), $D_{ii} = \sum_j \tilde{A}_{ij}$ (degree matrix) and $H^{(l)}$ is the matrix of activations in the lth layer, $H^{(0)} = X$. The $\sigma(.)$ denotes an activation function such as the Relu() or others.</p>
+<p>The intuition of this function is to aggregate the information of adjoin neighbors. A * H could be regarded as a node’s representation is the sum of the features of all its neighbor nodes.</p>
+<p>The $\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}$ can be regarded as the Laplacian matrix, which includes the degree matrix to count in the influence of the node which is being embedded and normalize $A$ as well (be definition, the sum of $A$ in a row always equals to the node’s degree, so $AD^{-1}$ could normalize A). For in-depth discussion please refer to the original paper.</p>
+<h2 id="GraphSAGE"><a href="#GraphSAGE" class="headerlink" title="GraphSAGE"></a>GraphSAGE</h2><p>GraphSAGE, abbreviate for sample and aggregate, is proposed for inductive node embedding, this method learn both node’s topological features and the distribution of node features in the neighborhood simultaneously. </p>
+<p>They train a set of aggregator functions that learns to aggregate feature information from a node’s local neighborhood like:</p>
+<p><img src="C:%5CUsers%5Cthink%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1592646573881.png" alt="1592646573881"></p>
+
 </div>
 
 
