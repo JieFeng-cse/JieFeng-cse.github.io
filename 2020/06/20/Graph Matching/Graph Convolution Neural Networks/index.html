@@ -176,7 +176,7 @@
 <div id="article-content">
 	<hr>
 <h1 id="Graph-Convolution-Neural-Networks"><a href="#Graph-Convolution-Neural-Networks" class="headerlink" title="Graph Convolution Neural Networks"></a>Graph Convolution Neural Networks</h1><p>This part will introduce some very import GCN models, those convolution techniques are fundamental blocks for GNNs and I will try my best to conclude the basic ideas behind those methods. </p>
-<p>Before those approaches proposed, there are some node embedding methods employ random walk statistics and matrix factorization-based learning objectives, which have close relationships to classic approaches to spectral clustering, multi-dimensional scaling and so on. Those methods will not be discussed there.</p>
+<p>Before those approaches proposed, there are some node embedding methods employ random walk statistics and matrix factorization-based learning objectives, which have close relationships to classic approaches to spectral clustering, multidimensional scaling and so on. Those methods will not be discussed there.</p>
 <h2 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h2><ul>
 <li>GCN    <a href="https://arxiv.org/pdf/1609.02907.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1609.02907.pdf</a> by kipf</li>
 <li>GraphSAGE  <a href="https://arxiv.org/pdf/1706.02216.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1706.02216.pdf</a></li>
@@ -185,12 +185,12 @@
 <li>rGCN  <a href="https://arxiv.org/abs/1703.06103" target="_blank" rel="noopener">https://arxiv.org/abs/1703.06103</a> by kipf</li>
 <li>rGAT <a href="https://arxiv.org/pdf/1904.05811.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1904.05811.pdf</a></li>
 </ul>
-<h2 id="GCN-spectral"><a href="#GCN-spectral" class="headerlink" title="GCN(spectral)"></a>GCN(spectral)</h2><p>This is one of the most prestigious work in graph neural network, serves as the most important block in many GNN frameworks.</p>
-<p>To begin with, GCN is a simple layer-wise propagation rule for neural network models which operate directly on graphs. The neural network model f(X,A) is proposed to encode the graph, where X denote the feature matrix and A is the adjacency matrix (binary or weighted). If the nodes are not labeled, empirically you can use an identity matrix as X at the beginning. </p>
+<h2 id="GCN-spectral"><a href="#GCN-spectral" class="headerlink" title="GCN(spectral)"></a>GCN(spectral)</h2><p>This is one of the most prestigious works in graph neural network, serves as the most important block in many GNN frameworks.</p>
+<p>To begin with, GCN is a simple layer-wise propagation rule for neural network models that operate directly on graphs. The neural network model f(X, A) is proposed to encode the graph, where X denotes the feature matrix and A is the adjacency matrix (binary or weighted). If the nodes are not labeled, empirically you can use an identity matrix as X at the beginning. </p>
 <p>The propagation rule can be described as:</p>
 <script type="math/tex; mode=display">
 H^{l+1} = \sigma(\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}H^{(l)}W^{(l)}).</script><p>Here, $\tilde{A} = A + I_N$ is the adjacency matrix of the undirected graph G with added self-connections ($I_N$ is the identity matrix), $D_{ii} = \sum_j \tilde{A}_{ij}$ (degree matrix) and $H^{(l)}$ is the matrix of activations in the lth layer, $H^{(0)} = X$. The $\sigma(.)$ denotes an activation function such as the Relu() or others.</p>
-<p>The intuition of this function is to aggregate the information of adjoin neighbors. A * H could be regarded as a node’s representation is the sum of the features of all its neighbor nodes.</p>
+<p>The intuition of this function is to aggregate the information of adjoining neighbors. A * H could be regarded as a node’s representation is the sum of the features of all its neighbor nodes.</p>
 <p>The $\tilde{D}^{-\frac{1}{2}}\tilde{A}\tilde{D}^{-\frac{1}{2}}$ can be regarded as the Laplacian matrix, which includes the degree matrix to count in the influence of the node which is being embedded and normalize $A$ as well (be definition, the sum of $A$ in a row always equals to the node’s degree, so $AD^{-1}$ could normalize A). For in-depth discussion please refer to the original paper.</p>
 <h2 id="GraphSAGE-non-spectral"><a href="#GraphSAGE-non-spectral" class="headerlink" title="GraphSAGE(non-spectral)"></a>GraphSAGE(non-spectral)</h2><p>GraphSAGE, abbreviate for graph sample and aggregate, is proposed for inductive node embedding, this method learn both node’s topological features and the distribution of node features in the neighborhood simultaneously. </p>
 <p>Why important?</p>
@@ -221,7 +221,7 @@ J_G(z_u)=-log(\sigma(z_u^Tz_v))-QE_{v_n\sim P_{n(v)}}log(\sigma(-z_u^Tz_{v_n}))<
 <h3 id="Aggregator-Architectures"><a href="#Aggregator-Architectures" class="headerlink" title="Aggregator Architectures"></a>Aggregator Architectures</h3><p>Mean aggregator;</p>
 <p>LSTM aggregator;</p>
 <p>Pooling aggregator;</p>
-<h3 id="Summation"><a href="#Summation" class="headerlink" title="Summation"></a>Summation</h3><p>This could be seen as a simplification of GCN, as GCN take global information into account, while GraphSAGE only use part local information to generate embedding, which means flexibility and robustness.</p>
+<h3 id="Summation"><a href="#Summation" class="headerlink" title="Summation"></a>Summation</h3><p>This could be seen as a simplification of GCN, as GCN takes global information into account, while GraphSAGE only use part local information to generate embedding, which means flexibility and robustness.</p>
 <h2 id="GAT-graph-attention-network"><a href="#GAT-graph-attention-network" class="headerlink" title="GAT (graph attention network)"></a>GAT (graph attention network)</h2><p>To be different from GAN (generative adversarial network), they name this framework as GAT.</p>
 <h3 id="Basic-idea"><a href="#Basic-idea" class="headerlink" title="Basic idea"></a>Basic idea</h3><p>To compute the hidden representations of each node in the graph, by attending over its neighbors, following a self-attention strategy.</p>
 <p>efficient and flexible</p>
@@ -243,7 +243,12 @@ e_{ij} = LeakyReLU(\vec{a}^T[W\vec{h}_i||W\vec{h}_j])</script><p>The || means th
 
 
 
-<h2 id="GIN"><a href="#GIN" class="headerlink" title="GIN"></a>GIN</h2>
+<h2 id="GIN-Graph-Isomorphism-Network"><a href="#GIN-Graph-Isomorphism-Network" class="headerlink" title="GIN (Graph Isomorphism Network)"></a>GIN (Graph Isomorphism Network)</h2><p>What this ICLR paper do?</p>
+<p>They prove the upper bound of GNN’s ability in distinguishing graph structures is the same level of Weisfeiler-Lehman test. And they develop the GIN which is as powerful as WL test.</p>
+<p>What does WL test do?</p>
+<p>To solve graph isomorphism problem which asks whether two graphs are topologically identical.</p>
+<p>WL-test first aggregates the labels of nodes and their neighborhoods, and then hashes the aggregated labels into unique new labels. The algorithm decides that two graphs are non-isomorphic if at some iteration the labels of the nodes between two graphs differ.</p>
+
 </div>
 
 
