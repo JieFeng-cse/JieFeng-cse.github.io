@@ -222,9 +222,9 @@ J_G(z_u)=-log(\sigma(z_u^Tz_v))-QE_{v_n\sim P_{n(v)}}log(\sigma(-z_u^Tz_{v_n}))<
 <p>Pooling aggregator;</p>
 <h3 id="Summation"><a href="#Summation" class="headerlink" title="Summation"></a>Summation</h3><p>This could be seen as a simplification of GCN, as GCN take global information into account, while GraphSAGE only use part local information to generate embedding, which means flexibility and robustness.</p>
 <h2 id="GAT-graph-attention-network"><a href="#GAT-graph-attention-network" class="headerlink" title="GAT (graph attention network)"></a>GAT (graph attention network)</h2><p>To be different from GAN (generative adversarial network), they name this framework as GAT.</p>
-<h3 id="Basic-idea"><a href="#Basic-idea" class="headerlink" title="Basic idea:"></a>Basic idea:</h3><p>To compute the hidden representations of each node in the graph, by attending over its neighbors, following a self-attention strategy.</p>
+<h3 id="Basic-idea"><a href="#Basic-idea" class="headerlink" title="Basic idea"></a>Basic idea</h3><p>To compute the hidden representations of each node in the graph, by attending over its neighbors, following a self-attention strategy.</p>
 <p>efficient and flexible</p>
-<h3 id="GAT-architecture"><a href="#GAT-architecture" class="headerlink" title="GAT architecture:"></a>GAT architecture:</h3><p>The input to the layer is a set of node features: $ h = \{\vec{h_1},\vec{h_2},…\vec{h_n}\}, \vec{h_i} \in R^F$ ,where N is the number of nodes, and F is the number of features in each node. The output will be a new set of features h’, and the dimension of feature vector may change.</p>
+<h3 id="GAT-architecture"><a href="#GAT-architecture" class="headerlink" title="GAT architecture"></a>GAT architecture</h3><p>The input to the layer is a set of node features: $ h = \{\vec{h_1},\vec{h_2},…\vec{h_n}\}, \vec{h_i} \in R^F$ ,where N is the number of nodes, and F is the number of features in each node. The output will be a new set of features h’, and the dimension of feature vector may change.</p>
 <p>Attention part:</p>
 <p>The attention coefficients are calculated by:</p>
 <script type="math/tex; mode=display">
