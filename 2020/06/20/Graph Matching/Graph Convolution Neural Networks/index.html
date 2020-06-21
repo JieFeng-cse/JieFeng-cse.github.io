@@ -253,7 +253,18 @@ e_{ij} = LeakyReLU(\vec{a}^T[W\vec{h}_i||W\vec{h}_j])</script><p>The || means th
 </div>
 
 <p>In another word, the power of GNN is determined by how well the model can map different graphs to different position while the same graphs are mapped to the same location, namely the model should be  injective.</p>
-<h3 id="GIN-architecture"><a href="#GIN-architecture" class="headerlink" title="GIN architecture"></a>GIN architecture</h3>
+<h3 id="GIN-architecture"><a href="#GIN-architecture" class="headerlink" title="GIN architecture"></a>GIN architecture</h3><script type="math/tex; mode=display">
+h_v^{(k)}=MLP^{(k)}((1+\epsilon^{(k)})*h_v^{(k-1)}+\sum_{u\in N(v)}h_u^{(k-1)})</script><p>Use summation as the tool for aggregation, combination is $(1+\epsilon)$, which make it possible to find a f(x) to make h(c, X) injective.</p>
+<p>MLP could fix the injective function because MLP can represent the composition of functions, while 1-layer perceptrons are not sufficient to achieve that goal.</p>
+<p>The input features are one-hot, so after the summation it still satisfy the criteria, there is no need to do preprocessing for MLP. </p>
+<p>The new feature generated from this law still satisfy the injective criteria.</p>
+<h3 id="Why-max-and-mean-are-not-good-enough-for-aggregation-task"><a href="#Why-max-and-mean-are-not-good-enough-for-aggregation-task" class="headerlink" title="Why max and mean are not good enough for aggregation task?"></a>Why max and mean are not good enough for aggregation task?</h3><p>Not injective!</p>
+<p>The picture tells the story perfectly:</p>
+<div align=center>
+    <img src="/images/gin2.png"/>
+</div>
+
+
 </div>
 
 
