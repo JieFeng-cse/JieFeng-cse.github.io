@@ -181,8 +181,9 @@
 <li>GCN    <a href="https://arxiv.org/pdf/1609.02907.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1609.02907.pdf</a> by kipf</li>
 <li>GraphSAGE  <a href="https://arxiv.org/pdf/1706.02216.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1706.02216.pdf</a></li>
 <li>GAT <a href="https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf" target="_blank" rel="noopener">https://mila.quebec/wp-content/uploads/2018/07/d1ac95b60310f43bb5a0b8024522fbe08fb2a482.pdf</a></li>
-<li>rGCN  <a href="https://arxiv.org/abs/1703.06103" target="_blank" rel="noopener">https://arxiv.org/abs/1703.06103</a> by kipf</li>
 <li>GIN <a href="https://arxiv.org/pdf/1810.00826.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1810.00826.pdf</a></li>
+<li>rGCN  <a href="https://arxiv.org/abs/1703.06103" target="_blank" rel="noopener">https://arxiv.org/abs/1703.06103</a> by kipf</li>
+<li>rGAT <a href="https://arxiv.org/pdf/1904.05811.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1904.05811.pdf</a></li>
 </ul>
 <h2 id="GCN-spectral"><a href="#GCN-spectral" class="headerlink" title="GCN(spectral)"></a>GCN(spectral)</h2><p>This is one of the most prestigious work in graph neural network, serves as the most important block in many GNN frameworks.</p>
 <p>To begin with, GCN is a simple layer-wise propagation rule for neural network models which operate directly on graphs. The neural network model f(X,A) is proposed to encode the graph, where X denote the feature matrix and A is the adjacency matrix (binary or weighted). If the nodes are not labeled, empirically you can use an identity matrix as X at the beginning. </p>
@@ -242,9 +243,7 @@ e_{ij} = LeakyReLU(\vec{a}^T[W\vec{h}_i||W\vec{h}_j])</script><p>The || means th
 
 
 
-
-
-
+<h2 id="GIN"><a href="#GIN" class="headerlink" title="GIN"></a>GIN</h2>
 </div>
 
 
