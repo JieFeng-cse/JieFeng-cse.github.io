@@ -24,6 +24,8 @@ table, th, td {
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
 I am a first year PhD student in University of California, San Diego. I am interested in AI algorithms with stability constrain.
+Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.
+
 <a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
 | <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
 | <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a> 
@@ -33,52 +35,17 @@ I am a first year PhD student in University of California, San Diego. I am inter
 <span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
   <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://arxiv.org/abs/2201.11903" style="color:#191970" target="_blank">Chain of thought prompting elicits reasoning in large language models.</a></td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing </td>
+    <td><a href="https://arxiv.org/pdf/2005.08008" style="color:#191970" target="_blank"> Graph partitioning and graph neural network based hierarchical graph matching for graph similarity computation.</a></td>
   </tr>
   <tr>
     <td></td>
-    <td><b>Jason Wei</b>, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou.</td>
+    <td>H Xu, Z Duan, Y Wang, <b>J Feng</b>, R Chen, Q Zhang, Z Xu</td>
   </tr>
+  
   <tr>
-    <td></td>
-    <td style="padding-bottom:4px"><a href="https://www.youtube.com/watch?v=nP-nMZpLM1A&t=7252s" target="_blank">Sundar explains chain of thought prompting at Google I/O 2022</a> / <a href="https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html" target="_blank">Google AI blog</a></td>
-  </tr>
-
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">ICLR '22</td>
-    <td><a href="https://openreview.net/forum?id=gEZrGCozdqR" style="color:#191970" target="_blank">Finetuned language models are zero-shot learners</a>.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:4px">{<b>Jason Wei</b>, Maarten Bosma, Vincent Zhao, Kelvin Guu}, Adams Yu, Brain Lester, Nan Du, Andrew Dai, and Quoc Le. <a href="https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html" target="_blank">Google AI blog</a> / <a href="https://www.youtube.com/watch?v=iq2kEGanDso" target="_blank">oral</a></td>
-  </tr>
-
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '21</td>
-    <td><a href="https://aclanthology.org/2021.emnlp-main.72/" style="color:#191970" target="_blank">Frequency effects on syntactic rule learning in transformers</a>.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:4px"><b>Jason Wei</b>, Dan Garrette, Tal Linzen, and Ellie Pavlick. <a href="https://ai.googleblog.com/2021/12/evaluating-syntactic-abilities-of.html" target="_blank">Google AI blog</a> / <a href="https://screencast-o-matic.com/watch/cr6QnuVXYT1" target="_blank">oral</a></td>
-  </tr>
-    
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">ACL '21</td>
-    <td><a href="https://aclanthology.org/2021.acl-long.404/" style="color:#191970" target="_blank">A cognitive regularizer for language modeling.</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:4px"><b>Jason Wei</b>, Clara Meister, and Ryan Cotterell.</td>
-  </tr>
-
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '19</td>
-    <td><a href="http://dx.doi.org/10.18653/v1/D19-1670" style="color:#191970" target="_blank">Easy data augmentation techniques for boosting performance on text classification tasks.</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:3px"><b>Jason Wei</b> and Kai Zou.</td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">CVPR Workshop '20</td>
+    <td><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Wu_End-to-End_Optimized_Video_Compression_With_MV-Residual_Prediction_CVPRW_2020_paper.pdf" style="color:#191970" target="_blank">End-to-end Optimized Video Compression with MV-Residual Prediction</a>.</td>
   </tr>
 
 </table>
