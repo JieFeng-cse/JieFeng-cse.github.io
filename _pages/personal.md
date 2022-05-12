@@ -4,7 +4,11 @@ permalink: /personal/
 author_profile: true
 ---
 
-I graduated from Zhejiang University with B.A. in Automation (Robotics track). I like trying different things. Currently, I am struggling to surf in the beutiful beaches of La Jolla. I enjoyed basketball when I was a freshman and we nearly made the final (In freshman competition). I enjoy swimming, hiking and any other activities I could breath some fresh air and have fun. I like traveling, this land is just incredible. I grew up in a very warm family and I have a lovely girl friend. They give me the strength to focus on research.
+I graduated from Zhejiang University with B.A. in Automation (Robotics track). I like trying different things. Currently, I am struggling to surf in the beutiful beaches of La Jolla. 
+
+I enjoyed basketball when I was a freshman and we nearly made the final (In freshman competition). I enjoy swimming, hiking and any other activities I could breath some fresh air and have fun. I like traveling, this land is just incredible. 
+
+I grew up in a very warm family and I have a lovely girl friend. They give me the strength to focus on research.
 
 -----
 <html>
@@ -26,7 +30,5 @@ table, th, td {
 </body>
 </html>
 
-<img src="/images/personal_1.jpg" width="22%">
-<img src="/images/personal_2.jpg" width="22%">
-<img src="/images/personal_3.jpg" width="22%">
-<img src="/images/personal_4.jpg" width="22%">
+<img src="/images/love.jpg" width="44%">
+<img src="/images/Yosemite.jpg" width="44%">
