@@ -23,7 +23,7 @@ table, th, td {
 <body>
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
-I am a first year PhD student in University of California, San Diego. I am interested in AI algorithms with stability constrain.
+I am a first year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
 Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.
 
 <a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
@@ -47,6 +47,10 @@ Currently I am working on stability constrained voltage control problems with Re
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">CVPR Workshop '20</td>
     <td><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Wu_End-to-End_Optimized_Video_Compression_With_MV-Residual_Prediction_CVPRW_2020_paper.pdf" style="color:#191970" target="_blank">End-to-end Optimized Video Compression with MV-Residual Prediction</a>.</td>
   </tr>
+  <tr>
+    <td></td>
+    <td>XJ Wu, Z Zhang,  <b>J Feng</b>, L Zhou, J Wu</td>
+  </tr>
 
 </table>
 
@@ -54,7 +58,6 @@ Currently I am working on stability constrained voltage control problems with Re
 </html>
 
 
-<!-- | <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146397444-1"></script>
