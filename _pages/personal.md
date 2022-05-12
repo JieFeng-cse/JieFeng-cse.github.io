@@ -8,7 +8,7 @@ I graduated from Zhejiang University with B.A. in Automation (Robotics track). I
 
 I enjoyed basketball when I was a freshman and we nearly made the final (In freshman competition). I enjoy swimming, hiking and any other activities I could breath some fresh air and have fun. I like traveling, this land is just incredible. 
 
-I grew up in a very warm family and I have a lovely girl friend. They give me the strength to focus on research.
+I grew up in a very warm family and I have a lovely girl friend. They give me strength to focus on research.
 
 -----
 <html>
