@@ -40,7 +40,6 @@ Admiring your LaTeX stuff
 
 # Principles of research
 Creativity
-First-principles thinking
 Intensity
 Simplicity
 Honesty

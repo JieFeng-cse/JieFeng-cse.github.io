@@ -25,12 +25,12 @@ table, th, td {
 <p style="margin-bottom: 1.2em; line-height: 1.8">
 I am a first year PhD student in University of California, San Diego. I am interested in AI algorithms with stability constrain.
 <a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
-| <a href="https://jiefeng-cse.github.io/files/current-jason-wei-cv.pdf" style="color:#191970" target="_blank">Vitæ</a> 
+| <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
 | <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a> 
 | <a href="https://twitter.com/jiefengcse" style="color:#191970" target="_blank">Twitter</a> 
 </p>
 
-<span style="font-size:1.3em">Publications (<a href="https://jasonwei20.github.io/papers/" style="color:#191970">see all</a>)</span>
+<span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
