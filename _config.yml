@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : #"Jason Wei"
+  name             : #"Jie Feng"
   avatar           : "taverna.jpeg"
   bio              : 
-  textemail        : #"jason.weng.wei@gmail.com"
+  textemail        : #"jason222hh@gmail.com"
   location         : 
   employer         : 
-  googlescholar    : #"https://scholar.google.com/citations?user=wA5TK_0AAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en"
   personal         : #"yes"
   email            :
   uri              :
@@ -103,10 +103,10 @@ author:
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : #"_jasonwei"
+  twitter          : #"jiefengcse"
   vine             :
   weibo            :
   xing             :
