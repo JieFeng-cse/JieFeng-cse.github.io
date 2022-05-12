@@ -24,8 +24,9 @@ table, th, td {
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
 I am a first year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
-Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.
+Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.</p>
 
+<p style="margin-bottom: 1.2em; line-height: 1.8">
 <a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
 | <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
 | <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a> 
