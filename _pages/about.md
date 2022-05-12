@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jason Wei"
+title: "Jie Feng"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -10,6 +10,7 @@ redirect_from:
 ---
 
 <html>
+
 <style>
 table, th, td {
   border:0px solid black;
@@ -18,9 +19,9 @@ table, th, td {
   font-size: 0.9em;
 }
 </style>
-  
+
 <body>
-  
+
 <p style="margin-bottom: 1.2em; line-height: 1.8">
 I work on natural language processing at <a href="https://research.google/teams/brain/" style="color:#191970">Google Brain</a>.<br>
 <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
@@ -43,7 +44,7 @@ I work on natural language processing at <a href="https://research.google/teams/
     <td></td>
     <td style="padding-bottom:4px"><a href="https://www.youtube.com/watch?v=nP-nMZpLM1A&t=7252s" target="_blank">Sundar explains chain of thought prompting at Google I/O 2022</a> / <a href="https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html" target="_blank">Google AI blog</a></td>
   </tr>
-  
+
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">ICLR '22</td>
     <td><a href="https://openreview.net/forum?id=gEZrGCozdqR" style="color:#191970" target="_blank">Finetuned language models are zero-shot learners</a>.</td>
@@ -52,7 +53,7 @@ I work on natural language processing at <a href="https://research.google/teams/
     <td></td>
     <td style="padding-bottom:4px">{<b>Jason Wei</b>, Maarten Bosma, Vincent Zhao, Kelvin Guu}, Adams Yu, Brain Lester, Nan Du, Andrew Dai, and Quoc Le. <a href="https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html" target="_blank">Google AI blog</a> / <a href="https://www.youtube.com/watch?v=iq2kEGanDso" target="_blank">oral</a></td>
   </tr>
-  
+
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '21</td>
     <td><a href="https://aclanthology.org/2021.emnlp-main.72/" style="color:#191970" target="_blank">Frequency effects on syntactic rule learning in transformers</a>.</td>
@@ -70,7 +71,7 @@ I work on natural language processing at <a href="https://research.google/teams/
     <td></td>
     <td style="padding-bottom:4px"><b>Jason Wei</b>, Clara Meister, and Ryan Cotterell.</td>
   </tr>
-  
+
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '19</td>
     <td><a href="http://dx.doi.org/10.18653/v1/D19-1670" style="color:#191970" target="_blank">Easy data augmentation techniques for boosting performance on text classification tasks.</a></td>
@@ -79,7 +80,7 @@ I work on natural language processing at <a href="https://research.google/teams/
     <td></td>
     <td style="padding-bottom:3px"><b>Jason Wei</b> and Kai Zou.</td>
   </tr>
-  
+
 </table>
 
 </body>
