@@ -23,7 +23,7 @@ table, th, td {
 <body>
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
-I am a first year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
+I am a Second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
 Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.</p>
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
@@ -35,6 +35,15 @@ Currently I am working on stability constrained voltage control problems with Re
 
 <span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
+  <tr>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
+    <td><a href="https://arxiv.org/abs/2209.07669" style="color:#191970" target="_blank"> Stability Constrained Reinforcement Learning for Real-Time Voltage Control in Distribution Systems.</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>J Feng<b>, Y Shi, G Qu, S H. Low, A Anandkumar, A Wierman
+</td>
+  </tr>
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing </td>
     <td><a href="https://arxiv.org/pdf/2005.08008" style="color:#191970" target="_blank"> Graph partitioning and graph neural network based hierarchical graph matching for graph similarity computation.</a></td>
