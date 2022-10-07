@@ -41,7 +41,7 @@ Currently I am working on stability constrained voltage control problems with Re
   </tr>
   <tr>
     <td></td>
-    <td><b>J Feng<b>, Y Shi, G Qu, S H. Low, A Anandkumar, A Wierman</td>
+    <td><b>J Feng</b>, Y Shi, G Qu, S H. Low, A Anandkumar, A Wierman</td>
   </tr>
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing </td>
