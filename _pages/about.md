@@ -23,20 +23,17 @@ table, th, td {
 <body>
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
-I am a Second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in convexoptimization with constraints.
-Currently I am working on safety guaranteed optimization problemns.</p>
+I am a Second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
+Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.</p>
 
 <p style="margin-bottom: 1.2em; line-height: 1.8">
 <a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
-<!-- | <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
-| <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a>  -->
+| <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
+| <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a> 
 | <a href="https://twitter.com/jiefengcse" style="color:#191970" target="_blank">Twitter</a> 
 </p>
 
-<p style="margin-bottom: 1.2em; line-height: 1.8">
-I believe that optimization is a robust and reliable way to concur real world problems, and I am excited for potential cooperations. I am specifically interested in deploying optimization methods to introduce more green energy resources to the system. I am also very excited about game theory and policy design.</p>
-
-<!-- <span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
+<span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
@@ -64,7 +61,7 @@ I believe that optimization is a robust and reliable way to concur real world pr
     <td>XJ Wu, Z Zhang,  <b>J Feng</b>, L Zhou, J Wu</td>
   </tr>
 
-</table> -->
+</table>
 
 </body>
 </html>
