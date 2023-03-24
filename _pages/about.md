@@ -35,6 +35,14 @@ Currently I am working on stability constrained voltage control problems with Re
 
 <span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
+<tr>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
+    <td><a href="https://arxiv.org/abs/2303.11417" style="color:#191970" target="_blank"> Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>J Feng</b>, W Cui, J Cortes, Y Shi</td>
+  </tr>
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
     <td><a href="https://arxiv.org/abs/2209.07669" style="color:#191970" target="_blank"> Stability Constrained Reinforcement Learning for Real-Time Voltage Control in Distribution Systems.</a></td>
