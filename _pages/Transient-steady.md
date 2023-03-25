@@ -1,6 +1,6 @@
 ---
 # title: "Bridging Transient and Steady-State Performnace in Voltage Control"
-permalink: /BTS/
+permalink: /Transient-Steady/
 author_profile: false
 ---
 <html>
