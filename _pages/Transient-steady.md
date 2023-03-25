@@ -1,5 +1,5 @@
 ---
-title: "Bridging Transient and Steady-State Performnace in Voltage Control"
+# title: "Bridging Transient and Steady-State Performnace in Voltage Control"
 permalink: /BTS/
 author_profile: false
 ---
