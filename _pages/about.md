@@ -11,29 +11,84 @@ redirect_from:
 
 <html>
 
-<style>
-table, th, td {
-  border:0px solid black;
-  padding:0;
-  border-collapse:collapse;
-  font-size: 0.9em;
-}
-</style>
-
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jie Feng - PhD student, UC San Diego</title>
+    <style>
+      table, th, td {
+        border: 0px solid black;
+        padding: 0;
+        border-collapse: collapse;
+        font-size: 0.9em;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #f0f0f0;
+        padding: 1.5em;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      a {
+        color: #191970;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      main {
+        margin: 1.5em;
+      }
+      table {
+        width: 100%;
+        margin-top: 1.5em;
+      }
+      td:first-child {
+        width: 80px;
+        text-align: right;
+        padding-right: 10px;
+        font-size: 0.8em;
+      }
+      th, td {
+        padding-bottom: 0.5em;
+      }
+      @media screen and (max-width: 600px) {
+        td:first-child {
+          width: auto;
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
 <body>
+  <header>
+      <h1>Jie Feng</h1>
+      <p>PhD student, UC San Diego</p>
+      <p>
+        Advisor:
+        <a href="https://yyshi.eng.ucsd.edu/">Yuanyuan Shi</a>
+      </p>
+    </header>
+    <main>
+        <div id="bio">
+            <p>I am a second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Yuanyuan Shi</a>. I am interested in AI algorithms with stability constraints. Currently I am working on stability constrained voltage control problems with reinforcement learning algorithms.</p>
+            <p>
+                <a href="https://jiefeng-cse.github.io/personal/" target="_blank">Personal</a> |
+                <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" target="_blank">Vitæ</a> |
+                <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+                <a href="https://twitter.com/jiefengcse" target="_blank">Twitter</a>
+            </p>
+        </div>
+        <!-- <div id="publications">
+            <h3>Publications (<a href="https://jiefeng-cse.github.io/papers/" target="_blank">see all</a>)</h3>
+        </div> -->
 
-<p style="margin-bottom: 1.2em; line-height: 1.8">
-I am a Second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" style="color:#191970" target="_blank"> Yuanyuan Shi</a>. I am interested in AI algorithms with stability constrain.
-Currently I am working on stability constrained voltage control problems with Reinforcement Learning Algorithms.</p>
-
-<p style="margin-bottom: 1.2em; line-height: 1.8">
-<a href="https://jiefeng-cse.github.io/personal/" style="color:#191970" target="_blank">Personal</a> 
-| <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" style="color:#191970" target="_blank">Vitæ</a> 
-| <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" style="color:#191970" target="_blank">Google Scholar</a> 
-| <a href="https://twitter.com/jiefengcse" style="color:#191970" target="_blank">Twitter</a> 
-</p>
-
-<span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
+<!-- <span style="font-size:1.3em">Publications (<a href="https://jiefeng-cse.github.io/papers/" style="color:#191970">see all</a>)</span>
 <table style="width:100%">
 <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
@@ -69,7 +124,45 @@ Currently I am working on stability constrained voltage control problems with Re
     <td>XJ Wu, Z Zhang,  <b>J Feng</b>, L Zhou, J Wu</td>
   </tr>
 
-</table>
+</table> -->
+  <section id="publications" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Publications</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="publication-item">
+            <h3 class="publication-title"><a href="https://jiefeng-cse.github.io/BTS/" target="_blank">Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></h3>
+            <p class="publication-authors">Jie Feng, Wei Cui, Jorge Cortes, Yuanyuan Shi</p>
+            <p class="publication-info">ArXiv</p>
+          </div>
+
+          <div class="publication-item">
+            <h3 class="publication-title"><a href="https://arxiv.org/abs/2209.07669" target="_blank">Stability Constrained Reinforcement Learning for Real-Time Voltage Control in Distribution Systems.</a></h3>
+            <p class="publication-authors">Jie Feng, Yuanyuan Shi, Guanghui Qu, Steven H. Low, Anima Anandkumar, Adam Wierman</p>
+            <p class="publication-info">ArXiv</p>
+          </div>
+
+          <div class="publication-item">
+            <h3 class="publication-title"><a href="https://arxiv.org/pdf/2005.08008" target="_blank">Graph partitioning and graph neural network based hierarchical graph matching for graph similarity computation.</a></h3>
+            <p class="publication-authors">Hua Xu, Zhengyu Duan, Ying Wang, Jie Feng, Rui Chen, Qi Zhang, Zeyu Xu</p>
+            <p class="publication-info">Neurocomputing</p>
+          </div>
+
+          <div class="publication-item">
+            <h3 class="publication-title"><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Wu_End-to-End_Optimized_Video_Compression_With_MV-Residual_Prediction_CVPRW_2020_paper.pdf" target="_blank">End-to-end Optimized Video Compression with MV-Residual Prediction</a></h3>
+            <p class="publication-authors">Xianjun Wu, Zhenyu Zhang, Jie Feng, Lijun Zhou, Jianping Wu</p>
+            <p class="publication-info">CVPR Workshop '20</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
 
 </body>
 </html>
