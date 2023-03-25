@@ -28,7 +28,7 @@ redirect_from:
       }
       header {
         background-color: #f0f0f0;
-        padding: 1.5em;
+        padding: 1.0em;
       }
       h1 {
         margin: 0;
