@@ -37,7 +37,7 @@ Currently I am working on stability constrained voltage control problems with Re
 <table style="width:100%">
 <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
-    <td><a href="https://arxiv.org/abs/2303.11417" style="color:#191970" target="_blank"> Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></td>
+    <td><a href="https://jiefeng-cse.github.io/BTS/" style="color:#191970" target="_blank"> Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></td>
   </tr>
   <tr>
     <td></td>
