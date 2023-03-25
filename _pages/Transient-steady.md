@@ -6,7 +6,7 @@ author_profile: false
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow</title>
+    <title><a href="https://arxiv.org/abs/2303.11417">Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow</a></title>
     <style>
       body {
         font-family: Arial, sans-serif;
