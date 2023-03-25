@@ -188,6 +188,22 @@ redirect_from:
           <td></td>
           <td><b>J Feng</b>, Y Shi, G Qu, S H. Low, A Anandkumar, A Wierman</td>
         </tr>
+        <tr>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing </td>
+          <td><a href="https://arxiv.org/pdf/2005.08008" style="color:#191970" target="_blank"> Graph partitioning and graph neural network based hierarchical graph matching for graph similarity computation.</a></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>H Xu, Z Duan, Y Wang, <b>J Feng</b>, R Chen, Q Zhang, Z Xu</td>
+        </tr>
+        <tr>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">CVPR Workshop '20</td>
+          <td><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Wu_End-to-End_Optimized_Video_Compression_With_MV-Residual_Prediction_CVPRW_2020_paper.pdf" style="color:#191970" target="_blank">End-to-end Optimized Video Compression with MV-Residual Prediction</a>.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>XJ Wu, Z Zhang,  <b>J Feng</b>, L Zhou, J Wu</td>
+        </tr>
         </table>
     </td>
   </tr>
