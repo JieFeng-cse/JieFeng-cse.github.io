@@ -82,6 +82,7 @@ redirect_from:
                 <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" target="_blank">Vitæ</a> |
                 <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" target="_blank">Google Scholar</a> |
                 <a href="https://twitter.com/jiefengcse" target="_blank">Twitter</a>
+                <a href="https://github.com/JieFeng-cse" target="_blank">Github</a>
             </p>
         </div>
         <div id="publications">
@@ -93,7 +94,7 @@ redirect_from:
     <td style="vertical-align: top; height: 100%; padding-right: 1em;">
       <table>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> LCSS, presentation in CDC </td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> LCSS, presentation in CDC 2023 </td>
           <td><a href="https://jiefeng-cse.github.io/Transient-Steady/" style="color:#191970" target="_blank"> Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></td>
         </tr>
         <tr>
@@ -101,7 +102,7 @@ redirect_from:
           <td><b>J Feng</b>, W Cui, J Cortes, Y Shi</td>
         </tr>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> TCNS </td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> TCNS, 2023 </td>
           <td><a href="https://arxiv.org/abs/2209.07669" style="color:#191970" target="_blank"> Stability Constrained Reinforcement Learning for Real-Time Voltage Control in Distribution Systems.</a></td>
         </tr>
         <tr>
@@ -109,7 +110,7 @@ redirect_from:
           <td><b>J Feng</b>, Y Shi, G Qu, S H. Low, A Anandkumar, A Wierman</td>
         </tr>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing </td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> Neurocomputing, 2021 </td>
           <td><a href="https://arxiv.org/pdf/2005.08008" style="color:#191970" target="_blank"> Graph partitioning and graph neural network based hierarchical graph matching for graph similarity computation.</a></td>
         </tr>
         <tr>
@@ -117,7 +118,7 @@ redirect_from:
           <td>H Xu, Z Duan, Y Wang, <b>J Feng</b>, R Chen, Q Zhang, Z Xu</td>
         </tr>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">CVPR Workshop '20</td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">CVPR Workshop, 2020</td>
           <td><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w7/Wu_End-to-End_Optimized_Video_Compression_With_MV-Residual_Prediction_CVPRW_2020_paper.pdf" style="color:#191970" target="_blank">End-to-end Optimized Video Compression with MV-Residual Prediction</a>.</td>
         </tr>
         <tr>
