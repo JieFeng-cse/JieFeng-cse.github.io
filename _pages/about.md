@@ -93,7 +93,7 @@ redirect_from:
     <td style="vertical-align: top; height: 100%; padding-right: 1em;">
       <table>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> LCSS, presentation in CDC </td>
           <td><a href="https://jiefeng-cse.github.io/Transient-Steady/" style="color:#191970" target="_blank"> Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow.</a></td>
         </tr>
         <tr>
@@ -101,7 +101,7 @@ redirect_from:
           <td><b>J Feng</b>, W Cui, J Cortes, Y Shi</td>
         </tr>
         <tr>
-          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> ArXiv </td>
+          <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> TCNS </td>
           <td><a href="https://arxiv.org/abs/2209.07669" style="color:#191970" target="_blank"> Stability Constrained Reinforcement Learning for Real-Time Voltage Control in Distribution Systems.</a></td>
         </tr>
         <tr>
