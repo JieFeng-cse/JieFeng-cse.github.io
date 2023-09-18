@@ -81,7 +81,7 @@ redirect_from:
                 <a href="https://jiefeng-cse.github.io/personal/" target="_blank">Personal</a> |
                 <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" target="_blank">Vitæ</a> |
                 <a href="https://scholar.google.com/citations?user=izXkblIAAAAJ&hl=en" target="_blank">Google Scholar</a> |
-                <a href="https://twitter.com/jiefengcse" target="_blank">Twitter</a>
+                <a href="https://twitter.com/jiefengcse" target="_blank">Twitter</a> |
                 <a href="https://github.com/JieFeng-cse" target="_blank">Github</a>
             </p>
         </div>
