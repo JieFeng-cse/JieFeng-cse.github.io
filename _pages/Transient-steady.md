@@ -59,25 +59,13 @@ author_profile: false
     <div class="content">
       <h2>Abstract</h2>
       <p>Deep reinforcement learning approaches are becoming appealing for the design of nonlinear controllers for voltage control problems, but the lack of stability guarantees hinders their deployment in real-world scenarios. This paper constructs a decentralized RL-based controller featuring two components: a transient control policy and a steady-state performance optimizer. The transient policy is parameterized as a neural network, and the steady-state optimizer represents the gradient of the long-term operating cost function. The two parts are synthesized through a safe gradient flow framework, which prevents the violation of reactive power capacity constraints. We prove that if the output of the transient controller is bounded and monotonically decreasing with respect to its input, then the closed-loop system is asymptotically stable and converges to the optimal steady-state solution. We demonstrate the effectiveness of our method by conducting experiments with IEEE 13-bus and 123-bus distribution system test feeders.</p>
-      <h2>Introduction</h2>
-      <p>Introduction Text</p>
-      Voltage Safety is one of the primary concerns of power system operation, which requires the voltage magnitude to stay in an acceptable range under all working conditions. In recent years, we witnessed the proliferation of distributed energy resources (DERs) such as roof-top solar and electric vehicles, those DERs have led to rapid and unpredictable fluctuations in the load and generation profiles of the grid, and thus placing challenges in voltage control.
-
-      We are aiming to use reinforcement learning for future power system control. The current RL method can do a good job with the transient performance, as RL can optimize the trajectory cost for a finite horizon. However, no optimality guarantee is offered for the steady state, which is critical because the system will stay at the steady states for a long time. The following diagram illustrates the transient state and steady state for voltage control problem. 
       <figure>
-        <img src="/images/transient+steady.png" alt="Figure 1">
-        <figcaption>Figure 2: Description of the figure.</figcaption>
+        <img src="/images/3in1.png" alt="Figure 1">
+        <figcaption>Figure 1: Performance of the proposed algorithm, have optimized transient performance, converge to the optimal solution.</figcaption>
       </figure>
-      <p>Related Work Text</p>
-      <h2>Methods</h2>
-      <p>Methods Text</p>
-      <h2>Results</h2>
-      <p>Results Text</p>
-      <h2>Conclusion</h2>
-      <p>Conclusion Text</p>
       <h2>References</h2>
       Paper is available at ArXiv.
-      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10163934">Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10163934">Bridging Transient and Steady-State Performance in Voltage Control: A Reinforcement Learning Approach with Safe Gradient Flow</a>
       <footer>
         <p>Contact: <a href="mailto:jif005@ucsd.edu">jif005@ucsd.edu</a></p>
       </footer>
