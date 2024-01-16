@@ -76,7 +76,7 @@ redirect_from:
     </header>
     <main>
         <div id="bio">
-            <p>I am a second year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Yuanyuan Shi</a>. I am interested in AI algorithms with stability constraints. Currently I am working on stability constrained voltage control problems with reinforcement learning algorithms.</p>
+            <p>I am a third year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Yuanyuan Shi</a>. I am interested in AI algorithms with stability constraints. Currently I am working on stability constrained voltage control problems with reinforcement learning algorithms.</p>
             <p>
                 <a href="https://jiefeng-cse.github.io/personal/" target="_blank">Personal</a> |
                 <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" target="_blank">Vitæ</a> |
