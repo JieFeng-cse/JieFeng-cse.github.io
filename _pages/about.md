@@ -76,7 +76,7 @@ redirect_from:
     </header>
     <main>
         <div id="bio">
-            <p>I am a third year PhD student in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Yuanyuan Shi</a>. I am interested in AI algorithms with stability constraints. Currently I am working on stability constrained voltage control problems with reinforcement learning algorithms.</p>
+            <p>I am a PhD Candidate in University of California, San Diego. My advisor is Prof. <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Yuanyuan Shi</a>. I am fortunate to be awarded as a UC-National Lab In-Residence Graduate Fellow and work in Los Alamos National Laboratory (LANL) with Dr. <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Deepjyoti Deka</a>. I am interested in AI algorithms with stability constraints. Currently I am working on stability constrained voltage control problems with reinforcement learning algorithms.</p>
             <p>
                 <a href="https://jiefeng-cse.github.io/personal/" target="_blank">Personal</a> |
                 <a href="https://jiefeng-cse.github.io/files/Jie_resume.pdf" target="_blank">Vitæ</a> |
