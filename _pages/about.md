@@ -9,7 +9,6 @@ redirect_from:
   - /research/
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -135,7 +134,7 @@ redirect_from:
 <main>
   <section id="about">
     <p>
-      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC-National Lab In-Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research focuses on AI algorithms with stability constraints, particularly in stability-constrained voltage control using reinforcement learning techniques.
+      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC-National Lab In-Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research focuses on AI algorithms with stability constraints, particularly in stability-constrained voltage control using reinforcement learning techniques. 
     </p>
   </section>
 
@@ -153,7 +152,7 @@ redirect_from:
           <strong>Jie Feng</strong>, Wenqi Cui, Jorge Cortés, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>arXiv preprint</em>, 2024
+          <em>arXiv preprint</em>, 2024, submitted to Transactions on Power Systems
         </p>
       </li>
       <!-- Publication 2 -->
@@ -181,7 +180,7 @@ redirect_from:
           <strong>Jie Feng</strong>, M. Muralidharan, R. Henriquez-Auba, P. Hidalgo-Gonzalez, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>IEEE Control Systems Letters</em>, Vol. 8, pp. 994-999, 2024
+          <em>IEEE Control Systems Letters</em>, Vol. 8, pp. 994-999, 2024, to be presented at CDC 2024 in Milan
         </p>
       </li>
       <!-- Publication 4 -->
@@ -195,7 +194,7 @@ redirect_from:
           <strong>Jie Feng</strong>, Wenqi Cui, Jorge Cortés, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>IEEE Control Systems Letters</em>, presented at CDC 2023
+          <em>IEEE Control Systems Letters</em>, presented at CDC 2023 in Singapore
         </p>
       </li>
       <!-- Publication 5 -->
