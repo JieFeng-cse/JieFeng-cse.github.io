@@ -1,3 +1,14 @@
+---
+permalink: /
+# title: "Jie Feng"
+excerpt: "About Me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+  - /research/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -239,3 +250,16 @@
 
 </body>
 </html>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146397444-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146397444-1');
+</script>
