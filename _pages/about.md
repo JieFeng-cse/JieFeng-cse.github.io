@@ -152,7 +152,7 @@ redirect_from:
           <strong>Jie Feng</strong>, Wenqi Cui, Jorge Cortés, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>arXiv preprint</em>, 2024, submitted to Transactions on Power Systems
+          <em>IEEE Transactions on Power Systems</em>, 2025, to appear
         </p>
       </li>
       <!-- Publication 2 -->
