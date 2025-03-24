@@ -180,7 +180,7 @@ redirect_from:
           <strong>Jie Feng</strong>, M. Muralidharan, R. Henriquez-Auba, P. Hidalgo-Gonzalez, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>IEEE Control Systems Letters</em>, Vol. 8, pp. 994-999, 2024, to be presented at CDC 2024 in Milan
+          <em>IEEE Control Systems Letters</em>, Vol. 8, pp. 994-999, 2024, presented at CDC 2024 in Milan
         </p>
       </li>
       <!-- Publication 4 -->
