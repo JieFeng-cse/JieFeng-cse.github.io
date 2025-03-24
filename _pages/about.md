@@ -134,7 +134,7 @@ redirect_from:
 <main>
   <section id="about">
     <p>
-      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC-National Lab In-Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research focuses on AI algorithms with stability constraints, particularly in stability-constrained voltage control using reinforcement learning techniques. 
+      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC-National Lab In-Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research focuses on reinforcement learning and control, with application to power systems. 
     </p>
   </section>
 
@@ -152,7 +152,7 @@ redirect_from:
           <strong>Jie Feng</strong>, Wenqi Cui, Jorge Cortés, Yuanyuan Shi
         </p>
         <p class="publication-info">
-          <em>IEEE Transactions on Power Systems</em>, 2025, to appear
+          <em>IEEE Transactions on Power Systems</em>, 2025.
         </p>
       </li>
       <!-- Publication 2 -->
