@@ -81,7 +81,6 @@ redirect_from:
       font-weight: bold;
       margin-right: 0.5em;
     }
-    /* Publications – Xingjian Bai–style */
     .publication {
       margin-bottom: 2em;
     }
@@ -158,7 +157,8 @@ redirect_from:
   <section id="news">
     <h2>News</h2>
     <ul class="news-list">
-      <li class="news-item"><span class="news-date">Apr&nbsp;2025:</span> 🎉 Our paper <em>Analytical Lyapunov Function Discovery</em> was accepted to <strong>ICML&nbsp;2025</strong>.</li>
+    <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🏛️ I will be visiting <strong>MIT</strong> this summer (June&nbsp;–&nbsp;September&nbsp;2025).</li>
+      <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🎉 Our paper <em>Analytical Lyapunov Function Discovery</em> was accepted to <strong>ICML&nbsp;2025</strong>.</li>
       <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented two papers at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li>
       <li class="news-item"><span class="news-date">Apr&nbsp;2024:</span> 🏆 Awarded the <strong>UC National Lab In-Residence Fellowship</strong>.</li>
     </ul>
@@ -187,7 +187,7 @@ redirect_from:
     </div>
 
     <div class="publication">
-      <h3 class="pub-title"><a href="https://ieeexplore.ieee.org/document/10183459" target="_blank">Stability‑Constrained Learning for Frequency Regulation in Power Grids with Variable Inertia</a></h3>
+      <h3 class="pub-title"><a href="https://ieeexplore.ieee.org/document/10543148" target="_blank">Stability‑Constrained Learning for Frequency Regulation in Power Grids with Variable Inertia</a></h3>
       <p class="pub-authors"><strong>Jie Feng</strong>, M. Muralidharan, R. Henriquez‑Auba, P. Hidalgo‑Gonzalez, Yuanyuan Shi</p>
       <p class="pub-info"><em>IEEE Control Systems Letters</em>, Vol. 8, pp. 994‑999, 2024 (presented at CDC 2024, Milan).</p>
     </div>
@@ -199,13 +199,13 @@ redirect_from:
     </div>
 
     <div class="publication">
-      <h3 class="pub-title"><a href="https://arxiv.org/abs/2209.07669" target="_blank">Stability‑Constrained Reinforcement Learning for Real‑Time Voltage Control in Distribution Systems</a></h3>
+      <h3 class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10336939" target="_blank">Stability Constrained Reinforcement Learning for Decentralized Real-Time Voltage Control</a></h3>
       <p class="pub-authors"><strong>Jie Feng</strong>, Yuanyuan Shi, Guangyi Qu, Steven H. Low, Animashree Anandkumar, Adam Wierman</p>
       <p class="pub-info"><em>IEEE Transactions on Control of Network Systems</em>, 2023.</p>
     </div>
 
     <div class="publication">
-      <h3 class="pub-title"><a href="https://doi.org/10.1016/j.neucom.2020.11.115" target="_blank">Graph Partitioning and Graph Neural Network‑Based Hierarchical Graph Matching for Graph Similarity Computation</a></h3>
+      <h3 class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S0925231221001351" target="_blank">Graph Partitioning and Graph Neural Network‑Based Hierarchical Graph Matching for Graph Similarity Computation</a></h3>
       <p class="pub-authors">H. Xu, Z. Duan, Y. Wang, <strong>Jie Feng</strong>, R. Chen, Q. Zhang, Z. Xu</p>
       <p class="pub-info"><em>Neurocomputing</em>, 2021.</p>
     </div>
