@@ -159,7 +159,7 @@ redirect_from:
     <ul class="news-list">
     <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🏛️ I will be visiting <strong>MIT</strong> this summer (June&nbsp;–&nbsp;September&nbsp;2025).</li>
       <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🎉 Our paper <em>Analytical Lyapunov Function Discovery</em> was accepted to <strong>ICML&nbsp;2025</strong>.</li>
-      <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented two papers at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li>
+      <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented one paper at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li>
       <li class="news-item"><span class="news-date">Apr&nbsp;2024:</span> 🏆 Awarded the <strong>UC National Lab In-Residence Fellowship</strong>.</li>
     </ul>
   </section>
