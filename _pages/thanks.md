@@ -6,7 +6,7 @@ author_profile: true
 
 The following people profoundly influenced me (among others).
 
-* Prof. Xiong introduced me to the world of optimization and showed me how to begin some scientific research.
-<!-- * Junmin Wu gave me the opportunity to work with a passianate startup group and got involved in the top competitions of Video Compression. -->
-* Yuanyuan Shi is guiding me how to do research with tramendous patience and passion.
-<!-- And thank you to my high school teachers: Michael Auerbach, Ashley Jones, and Duncan Forbes. -->
+* Prof. Rong Xiong introduced me to the world of optimization and guided me through my first steps in scientific research.
+* Prof. Yuanyuan Shi has been mentoring me with tremendous patience and passion, teaching me how to approach and conduct meaningful research.
+* Prof. Jorge Cortes has provided invaluable support in developing my understanding of control theory.
+* Dr. Deep Deka has offered deep insights through his mentorship during my UC-National lab Fellowship.
