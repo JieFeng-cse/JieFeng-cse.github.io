@@ -157,16 +157,28 @@ redirect_from:
   <section id="news">
     <h2>News</h2>
     <ul class="news-list">
+    <li class="news-item"><span class="news-date">Nov&nbsp;2025:</span> 🎉 Two papers: <em>DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients, Vision-G1: Towards General Vision Language Reasoning with Multi-Domain Data Curation</em> were accepted to <strong>AAAI&nbsp;2026</strong>.</li>
     <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🏛️ I will be visiting <strong>MIT</strong> this summer (June&nbsp;–&nbsp;September&nbsp;2025).</li>
       <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🎉 Our paper <em>Analytical Lyapunov Function Discovery</em> was accepted to <strong>ICML&nbsp;2025</strong>.</li>
-      <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented one paper at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li>
-      <li class="news-item"><span class="news-date">Apr&nbsp;2024:</span> 🏆 Awarded the <strong>UC National Lab In-Residence Fellowship</strong>.</li>
+      <!-- <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented one paper at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li> -->
+      <!-- <li class="news-item"><span class="news-date">Apr&nbsp;2024:</span> 🏆 Awarded the <strong>UC National Lab In-Residence Fellowship</strong>.</li> -->
     </ul>
   </section>
 
   <!-- Publications -->
   <section id="publications">
-    <h2>Selected Publications <small>(<a href="https://jiefeng-cse.github.io/papers/" target="_blank">see all</a>)</small></h2>
+    <h2>Selected Publications <small>(<a href="https://scholar.google.com/citations?hl=en&user=izXkblIAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">see all</a>)</small></h2>
+    <div class="publication">
+      <h3 class="pub-title"><a href="https://arxiv.org/abs/2411.07484" target="_blank">DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients
+</a></h3>
+      <p class="pub-authors">Yuexin Bian, <strong>Jie Feng</strong>, Yuanyuan Shi</p>
+      <p class="pub-info"><em>AAAI</em>, 2026. </p>
+    </div>
+    <div class="publication">
+      <h3 class="pub-title"><a href="https://arxiv.org/abs/2508.12680" target="_blank">Vision-G1: Towards General Vision Language Reasoning with Multi-Domain Data Curation</a></h3>
+      <p class="pub-authors">Yuheng Zha, Kun Zhou, Yujia Wu, Yushu Wang, <strong>Jie Feng</strong>, Zhi Xu, Shibo Hao, Zhengzhong Liu, Eric P. Xing, Zhiting Hu</p>
+      <p class="pub-info"><em>AAAI</em>, 2026. </p>
+    </div>
 
     <div class="publication">
       <h3 class="pub-title"><a href="https://arxiv.org/abs/2502.02014" target="_blank">Analytical Lyapunov Function Discovery: An RL‑based Generative Approach</a></h3>
