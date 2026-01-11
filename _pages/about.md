@@ -149,7 +149,7 @@ redirect_from:
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC‑National Lab In‑Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research focuses on reinforcement learning and control, with applications to modern power systems.
+      I am a PhD candidate at the University of California, San Diego, advised by <a href="https://yyshi.eng.ucsd.edu/" target="_blank">Prof. Yuanyuan Shi</a>. I am honored to be a UC‑National Lab In‑Residence Graduate Fellow, collaborating with <a href="https://cnls.lanl.gov/external/people/Deepjyoti_Deka.php" target="_blank">Dr. Deepjyoti Deka</a> at Los Alamos National Laboratory (LANL). My research lies at the intersection of Reinforcement Learning (RL), Foundation Models, and Control. I am particularly interested in building reliable and adaptable Vision-Language Models (VLMs) that can reason and act as autonomous agents in complex environments.
     </p>
   </section>
 
@@ -157,7 +157,7 @@ redirect_from:
   <section id="news">
     <h2>News</h2>
     <ul class="news-list">
-    <li class="news-item"><span class="news-date">Nov&nbsp;2025:</span> 🎉 Two papers: <em>DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients, Vision-G1: Towards General Vision Language Reasoning with Multi-Domain Data Curation</em> were accepted to <strong>AAAI&nbsp;2026</strong>.</li>
+    <li class="news-item"><span class="news-date">Nov&nbsp;2025:</span> 🎉 Two papers: <em>Vision-G1: Towards General Vision Language Reasoning with Multi-Domain Data Curation, DiffOP: Reinforcement Learning of Optimization-Based Control Policies via Implicit Policy Gradients </em> were accepted to <strong>AAAI&nbsp;2026</strong>.</li>
     <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🏛️ I will be visiting <strong>MIT</strong> this summer (June&nbsp;–&nbsp;September&nbsp;2025).</li>
       <li class="news-item"><span class="news-date">May&nbsp;2025:</span> 🎉 Our paper <em>Analytical Lyapunov Function Discovery</em> was accepted to <strong>ICML&nbsp;2025</strong>.</li>
       <!-- <li class="news-item"><span class="news-date">Dec&nbsp;2024:</span> 📢 Presented one paper at <strong>CDC&nbsp;2024</strong> in Milan, Italy.</li> -->
